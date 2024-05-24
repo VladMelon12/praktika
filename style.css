@@ -5,6 +5,10 @@ body{
     margin-right: 40px;
     background-color: #F1F1F1;
 }
+@font-face{
+    font-family: Muller;
+    src: url('../praktika-main/fonts/ofont.ru_Muller.ttf');
+}
 
 .header{
 }
@@ -35,6 +39,7 @@ body{
     position: relative;
     top: -90px;
     font-weight: bold;
+    font-family: Muller;
 
 
 }
@@ -46,6 +51,7 @@ body{
     font-size: 16px;
     line-height: 16px;
     color: #CC9933;
+    font-family: Muller;
 }
 
 .nav{
@@ -55,6 +61,7 @@ body{
     background-color: white;
     width: 1245px;
     border-radius: 15px;
+    font-family: Muller;
 }
 .nav ul li{
     list-style: none;
@@ -88,6 +95,7 @@ body{
     margin-right: 30px;
     color: #CC9933;
     bottom: 3px;
+    font-family: Muller;
 }
 
 .predloshka h1{
@@ -97,6 +105,7 @@ body{
     position: relative;
     top: 20px;
     left: 45px;
+    font-family: Muller;
 }
 
 
@@ -109,6 +118,7 @@ body{
     bottom: 270px;
     left: 40px;
     color: white;
+    font-family: Muller;
 
     
 }
@@ -120,6 +130,7 @@ body{
     bottom: 290px;
     left: 42px;
     color: white;
+    font-family: Muller;
 
 }
 
@@ -131,8 +142,403 @@ body{
 .podrobnee a{
     text-decoration: none;
     color: #FFCC66;
+    font-family: Muller;
 }
 .strelka{
     width: 11px;
     height: 11px;
+}
+
+.tur1 h2{
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 50px;
+    z-index: 1;
+    position: relative;
+    bottom: 270px;
+    left: 40px;
+    color: white;
+    font-family: Muller;
+}
+
+.tur1 p{
+    position: relative;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 20px;
+    bottom: 290px;
+    left: 42px;
+    color: white;
+    font-family: Muller;
+
+}
+
+.tur1{
+    position: relative;
+    bottom: 200px;
+    font-family: Muller;
+}
+
+.tur2 h2{
+    font-weight: 700px;
+    font-size: 60px;
+    line-height: 60px;
+    color: white;
+    z-index: 1;
+    position: relative;
+    bottom: 385px;
+    left: 40px;
+    font-family: Muller;
+}
+
+.tur2 p{
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 30px;
+    left: 42px;
+    color: white;
+    position: relative;
+    bottom: 410px;
+    font-family: Muller;
+
+}
+
+.podr{
+    position: relative;
+    bottom: 140px;
+
+}
+.tur2{
+    position: relative;
+    bottom: 973px;
+    left: 600px;
+}
+.turi{
+    margin-left: 35px;
+}
+.onas h1{
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+    font-family: Muller;
+}
+.onas{
+    position: relative;
+    top: -1250px;
+    left: 35px;
+    font-family: Muller;
+}
+.onas p{
+    font-weight: 400px;
+    font-size: 16px;
+    font-family: Muller;
+    line-height: 32px;
+}
+
+.yslugi{
+    position: relative;
+    top: -1200px;
+    
+}
+.yslugi h1{
+    font-weight: 400px;
+    font-size: 40px;
+    font-family: Muller;
+    line-height: 40px;
+    margin-left: 80px;
+
+}
+
+.ps{
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #CC9933;
+    font-family: Muller;
+    margin-left: 45px;
+
+}
+.pr{
+    margin-left: 45px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 32px;
+    position: relative;
+    font-family: Muller;
+    bottom: 18px;
+}
+
+
+.uslugi_vd{
+    background-color: white;
+    width: 573px;
+    border-radius: 15px;
+    margin-left: 30px;
+    position: relative;
+    font-family: Muller;
+   
+}
+.uslugi_vh{
+    top: 10px;
+    background-color: white;
+    width: 573px;
+    border-radius: 15px;
+    margin-left: 30px;
+    position: relative;
+    font-family: Muller;
+   
+}
+.uslugi_vv{
+    left: 600px;
+    top: -657px;
+    background-color: white;
+    width: 573px;
+    border-radius: 15px;
+    margin-left: 30px;
+    font-family: Muller;
+    position: relative;
+   
+}
+.uslugi_vt{
+    left: 600px;
+    top: -648px;
+    background-color: white;
+    width: 573px;
+    border-radius: 15px;
+    margin-left: 30px;
+    position: relative;
+    font-family: Muller;
+}
+
+
+
+
+
+.preim{
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    border-radius: 15px;
+    font-family: Muller;
+}
+
+.preim img{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+.preim p{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-weight: 400px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Muller;
+}
+
+.preimyshestva{
+    position: relative;
+    top: -1800px;
+    left: 30px;
+    font-family: Muller;
+}
+
+.preimyshestva h1{
+    font-weight: 400px;
+    font-size: 40px;
+    list-style: 40px;
+    left: 70px;
+    position: relative;
+    font-family: Muller;
+}
+.preim-2 p{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-weight: 400px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Muller;
+}
+
+.preim-2 img{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.preim-2{
+    margin-top: 25px;
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    border-radius: 15px;
+    font-family: Muller;
+}
+
+.preim-3{
+    margin-top: 25px;
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    border-radius: 15px;
+    position: relative;
+    left: 300px;
+    top: -600px;
+    font-family: Muller;
+}
+.preim-3 p{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-weight: 400px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Muller;
+}
+
+.preim-3 img{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.preim-4{
+    margin-top: 25px;
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    border-radius: 15px;
+    position: relative;
+    left: 300px;
+    top: -600px;
+    font-family: Muller;
+}
+.preim-4 p{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-weight: 400px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Muller;
+}
+
+.preim-4 img{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.preim-5{
+    margin-top: 25px;
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    border-radius: 15px;
+    position: relative;
+    left: 600px;
+    top: -1200px;
+    font-family: Muller;
+}
+.preim-5 p{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-weight: 400px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Muller;
+}
+
+.preim-5 img{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+
+.preim-6{
+    margin-top: 25px;
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    border-radius: 15px;
+    position: relative;
+    left: 600px;
+    top: -1200px;
+    font-family: Muller;
+}
+.preim-6 p{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-weight: 400px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Muller;
+}
+
+.preim-6 img{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+
+.preim-7{
+    margin-top: 25px;
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    border-radius: 15px;
+    position: relative;
+    left: 900px;
+    top: -1800px;
+    font-family: Muller;
+}
+.preim-7 p{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-weight: 400px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Muller;
+}
+
+.preim-7 img{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+
+.preim-8{
+    margin-top: 25px;
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    border-radius: 15px;
+    position: relative;
+    left: 900px;
+    top: -1800px;
+    font-family: Muller;
+}
+.preim-8 p{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    font-weight: 400px;
+    line-height: 32px;
+    font-size: 16px;
+    font-family: Muller;
+}
+
+.preim-8 img{
+    position: relative;
+    left: 40px;
+    top: 30px;
 }
