@@ -53,7 +53,12 @@ body{
     color: #CC9933;
     font-family: Muller;
 }
-
+.nav  button:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: #CC9933;
+}
 .nav{
     display: inline-block;
     position: relative;
@@ -202,7 +207,9 @@ body{
     font-family: Muller;
 
 }
-
+.tur2 img{
+    height: 543px;
+}
 .podr{
     position: relative;
     bottom: 140px;
@@ -210,7 +217,7 @@ body{
 }
 .tur2{
     position: relative;
-    bottom: 973px;
+    bottom: 970px;
     left: 600px;
 }
 .turi{
@@ -541,4 +548,377 @@ body{
     position: relative;
     left: 40px;
     top: 30px;
+}
+
+
+
+.razmeshenie h1{
+    position: relative;
+    top: -3530px;
+    left: 100px;
+    font-family: Muller;
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.raz-1{
+    background-color: white;
+    width: 374px;
+    height: 440px;
+    border-radius: 15px;
+    position: relative;
+    top: -3500px;
+    left: 30px;
+}
+
+
+.raz-1 p{
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+.stars{
+    position: relative;
+    left: 250px;
+    top: -24px;
+}
+
+#tr{
+    position: relative;
+    top: -20px;
+}
+#td{
+    position: relative;
+    top: -15px;
+    color: #999999;
+    font-family: Muller;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 16px;
+
+}
+
+.raz-1 button{
+    position: relative;
+    left: 45px;
+    bottom: 9px;
+    font-family: Muller;
+    border: 1px solid #CC9933;
+    background-color: white;
+    padding: 13px 20px 13px 20px; 
+    border-radius: 10px;
+    color: #CC9933;
+}
+
+.raz-1 p{
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20px;
+    
+}
+#qwe{
+    position: relative;
+    right: 5px;
+    padding: 7px;
+}
+.raz-1 b{
+    right: 5px;
+    position: relative;
+}
+.raz-2 b{
+    right: 5px;
+    position: relative;
+}
+.raz-2 p{
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20px;
+    
+}
+.raz-2 button{
+    position: relative;
+    left: 45px;
+    bottom: 9px;
+    font-family: Muller;
+    border: 1px solid #CC9933;
+    background-color: white;
+    padding: 13px 20px 13px 20px; 
+    border-radius: 10px;
+    color: #CC9933;
+}
+.raz-2{
+    background-color: white;
+    width: 374px;
+    height: 440px;
+    border-radius: 15px;
+    position: relative;
+    top: -3940px;
+    left: 440px;
+
+}
+
+.raz-2 p{
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+
+
+
+.raz-3 b{
+    right: 5px;
+    position: relative;
+}
+.raz-3 p{
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20px;
+    
+}
+.raz-3 button{
+    position: relative;
+    left: 45px;
+    bottom: 9px;
+    font-family: Muller;
+    border: 1px solid #CC9933;
+    background-color: white;
+    padding: 13px 20px 13px 20px; 
+    border-radius: 10px;
+    color: #CC9933;
+}
+.raz-3{
+    background-color: white;
+    width: 374px;
+    height: 440px;
+    border-radius: 15px;
+    position: relative;
+    top: -4380px;
+    left: 850px;
+
+}
+
+.raz-3 p{
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+
+
+
+
+.raz-4 b{
+    right: 5px;
+    position: relative;
+}
+.raz-4 p{
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20px;
+    
+}
+.raz-4 button{
+    position: relative;
+    left: 45px;
+    bottom: 9px;
+    font-family: Muller;
+    border: 1px solid #CC9933;
+    background-color: white;
+    padding: 13px 20px 13px 20px; 
+    border-radius: 10px;
+    color: #CC9933;
+}
+.raz-4{
+    background-color: white;
+    width: 374px;
+    height: 440px;
+    border-radius: 15px;
+    position: relative;
+    top: -4350px;
+    left: 30px;
+
+}
+
+.raz-4 p{
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+
+.raz-5 b{
+    right: 5px;
+    position: relative;
+}
+.raz-5 p{
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20px;
+    
+}
+.raz-5 button{
+    position: relative;
+    left: 45px;
+    bottom: 9px;
+    font-family: Muller;
+    border: 1px solid #CC9933;
+    background-color: white;
+    padding: 13px 20px 13px 20px; 
+    border-radius: 10px;
+    color: #CC9933;
+}
+.raz-5{
+    background-color: white;
+    width: 374px;
+    height: 440px;
+    border-radius: 15px;
+    position: relative;
+    top: -4790px;
+    left: 440px;
+
+}
+
+.raz-5 p{
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+
+
+.raz-6 b{
+    right: 5px;
+    position: relative;
+}
+.raz-6 p{
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20px;
+    
+}
+.raz-6 button{
+    position: relative;
+    left: 45px;
+    bottom: 9px;
+    font-family: Muller;
+    border: 1px solid #CC9933;
+    background-color: white;
+    padding: 13px 20px 13px 20px; 
+    border-radius: 10px;
+    color: #CC9933;
+}
+.raz-6{
+    background-color: white;
+    width: 374px;
+    height: 440px;
+    border-radius: 15px;
+    position: relative;
+    top: -5230px;
+    left: 850px;
+
+}
+
+.raz-6 p{
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+
+
+
+.raz-7 b{
+    right: 5px;
+    position: relative;
+}
+.raz-7 p{
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20px;
+    
+}
+.raz-7 button{
+    position: relative;
+    left: 45px;
+    bottom: 9px;
+    font-family: Muller;
+    border: 1px solid #CC9933;
+    background-color: white;
+    padding: 13px 20px 13px 20px; 
+    border-radius: 10px;
+    color: #CC9933;
+}
+.raz-7{
+    background-color: white;
+    width: 374px;
+    height: 440px;
+    border-radius: 15px;
+    position: relative;
+    top: -5200px;
+    left: 30px;
+
+}
+
+.raz-7 p{
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+
+
+.raz-8 b{
+    right: 5px;
+    position: relative;
+}
+.raz-8 p{
+    font-family: Muller;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 20px;
+    
+}
+.raz-8 button{
+    position: relative;
+    left: 45px;
+    bottom: 9px;
+    font-family: Muller;
+    border: 1px solid #CC9933;
+    background-color: white;
+    padding: 13px 20px 13px 20px; 
+    border-radius: 10px;
+    color: #CC9933;
+}
+.raz-8{
+    background-color: white;
+    width: 374px;
+    height: 440px;
+    border-radius: 15px;
+    position: relative;
+    top: -5640px;
+    left: 440px;
+
+}
+
+.raz-8 p{
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+
+.raz-9 img{
+    position: relative;
+    top: -6080px;
+    left: 850px;
 }
