@@ -10,6 +10,13 @@ body{
     src: url('../praktika-main/fonts/ofont.ru_Muller.ttf');
 }
 
+@media  (max-width:667px) {
+    body{
+        width: 50px;
+        font-size: 6px;
+    }
+}
+
 .header{
 }
 .logs{
@@ -921,4 +928,295 @@ body{
     position: relative;
     top: -6080px;
     left: 850px;
+}
+
+
+.hochu_tur{
+    background-color: white;
+    width: 1110px;
+    height: 106px;
+    border-radius: 15px;
+    display: flex;
+    padding: 20px;
+    font-family: Muller;
+    margin-left: 20px;
+    margin-top: 75px;
+}
+
+.hochu_tur1{
+    padding: 45px;
+    position: relative;
+    bottom: 30px;
+
+}
+.hochu_tur2{
+    padding: 45px;
+    position: relative;
+    bottom: 30px;
+}
+.hochu_tur3{
+    padding: 45px;
+    position: relative;
+    bottom: 30px;
+}
+.hochu_tur4{
+    padding: 45px;
+    position: relative;
+    bottom: 30px;
+}.hochu_tur5{
+    padding: 45px;
+    position: relative;
+    bottom: 30px;
+}
+
+#ret{
+    border: 0;
+}
+
+.hochu_tur4 input{
+    border: 0;
+}
+.hochu_tur5 input{
+    border: 0;
+}
+
+
+.hochu_tur6 button{
+    background-color: white;
+    border: 1px solid #CC9933;
+    height: 42px;
+    width: 108px;
+    font-family: Muller;
+    color: #CC9933;
+    border-radius: 10px;
+    position: relative;
+    left: 70px;
+}
+
+.hochu_tur6{
+    position: relative;
+    top: 40px;
+}
+
+.recta{
+    position: relative;
+    bottom: 40px;
+    right: 25px;
+}
+
+.ip{
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 12px;
+    position: relative;
+    left: 5px;
+}
+
+.rectas{
+    position: relative;
+    bottom: 40px;
+    right: 25px;
+}
+
+.hoch{
+    background-color: #E9E9E9;
+    width: 1200px;
+    height: 375px;
+    border-radius: 15px;
+    position: relative;
+    top: -6000px;
+    left: 25px;
+}
+.hoch h1{
+    font-family: Muller;
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 40px;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+
+.rte{
+    font-family: Muller;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.rtw{
+    font-family: Muller;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    left: 160px;
+    top: -40px;
+}
+.rtm{
+    font-family: Muller;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color:  #CC9933;
+    position: relative;
+    left: 160px;
+    top: -40px;
+}
+
+
+#ttt{
+    position: relative;
+    top: 20px;
+    right: 125px;
+}
+
+#ttd{
+    position: relative;
+    top: 20px;
+    right: 132px;
+}
+
+.adres5 button{
+    width: 213px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #CC9933;
+    color: #CC9933;
+
+
+    top: 30px;
+    position: relative;
+    font-weight: 700px;
+    font-family: Muller;
+    font-size: 16px;
+    line-height: 16px;
+    background-color: white;
+
+}
+
+.bvb{
+    position: relative;
+    right: 520px;
+    top: 50px;
+}
+
+.fff{
+    position: relative;
+    left: 450px;
+    top: -600px;
+}
+
+.back{
+    background-color: white;
+    width: 1200px;
+    height: 750px;
+    border-radius: 15px;
+    position: relative;
+    top: -5850px;
+    left: 25px;
+
+}
+
+.kontakti{
+    position: relative;
+    left: 50px;
+}
+
+.back h1{
+    position: relative;
+    top: -70px;
+    left: 70px;
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 40px;
+    font-family: Muller;
+}
+
+.foot{
+    width: 1200px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: #333333;
+    bottom: 0;
+    font-family: Muller;
+    position: relative;
+    top: -370px;
+    
+}
+
+.foot-1{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    top: 25px;
+    position: relative;
+    left: 50px;
+}
+.foot-2{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    color: white;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.foot-3{
+    position: relative;
+    top: 50px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CC9933;
+    left: 50px;
+    top: 120px;
+}
+.footss{
+    position: relative;
+    left: 520px;
+    top: -215px;
+}
+
+.foot-4{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    top: 25px;
+    position: relative;
+}
+
+
+.foot-5{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CC9933;
+    top: 27px;
+    position: relative;
+}
+
+.foot-6{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #CC9933;
+    top: 27px;
+    position: relative;
+}
+
+
+.kartina{
+    position: relative;
+    left: 210px;
+}
+
+.kartina-2{
+    position: relative;
+    left: 340px;
+    top: -120px;
 }
