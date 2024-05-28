@@ -107,6 +107,10 @@
 
 
 
+@font-face{
+    font-family: "Muller";
+    src: url(fonts/ofont.ru_Muller.ttf);
+} 
 
 
 
@@ -117,6 +121,7 @@ body{
     margin-top: 30px;
     margin-right: 325px;
     background-color: #F1F1F1;
+    font-family: "Muller";
 }
 
 .star{
@@ -134,6 +139,7 @@ body{
 .h1 h1{
     position: relative;
     bottom: 110px;
+    font-family: "Muller";
 }
 #gh{
     cursor: pointer;
@@ -148,22 +154,26 @@ body{
     font-size: 20px;
     color: #666666;
     font-weight: bold;
+    font-family: "Muller";
 }
 
 .logs {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: "Muller";
 }
 
 .phone-container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: "Muller";
 }
 
 #LICH1 {
     margin-right: 20px;
+    font-family: "Muller";
 }
 
 #LICHNUY_KABINET{
@@ -172,17 +182,18 @@ body{
     font-size: 16px;
     line-height: 16px;
     color: #CC9933;
+    font-family: "Muller";
 }
 
 .li{
     list-style: none;
     margin: 45px;
-
+    font-family: "Muller";
 }
 
 .nav{
     display: flex;
-
+    font-family: "Muller";
 }
 .navig{
     text-decoration: none;
@@ -190,12 +201,14 @@ body{
     font-size: 16px;
     line-height: 16px;
     color: #666666;
+    font-family: "Muller";
 }
 .nls{
     margin-top: 40px;
     background-color: white;
     border-radius: 15px;
-    width: 1350px;
+    width: 1370px;
+    font-family: "Muller";
     
 }
 .Rectangle{
@@ -212,12 +225,14 @@ body{
     color: #CC9933;
     margin-left: 40px;
     margin-top: 30px;
+    font-family: "Muller";
 
 
 }
 #BUT:hover{
     background-color: #A47312;
     color: white;
+    font-family: "Muller";
 }
 
 #BUT-1{
@@ -231,12 +246,14 @@ body{
     color: #CC9933;
     margin-left: 50px;
     margin-top: 30px;
+    font-family: "Muller";
 
 
 }
 #BUT-1:hover{
     background-color: #A47312;
     color: white;
+    font-family: "Muller";
     
 }
 
@@ -245,6 +262,7 @@ body{
 .spec-1{
     margin-top: 70px;
     margin-left: 70px;
+    font-family: "Muller";
 }
 
 #onas h1{
@@ -252,6 +270,7 @@ body{
     font-size: 40px;
     line-height: 40px;
     margin-left: 70px;
+    font-family: "Muller";
 }
 
 
@@ -259,10 +278,12 @@ body{
     font-weight: 400px;
     font-size: 16px;
     line-height: 32px;
+    font-family: "Muller";
 }
 
 #onas{
     margin-left: 70px;
+    font-family: "Muller";
 }
 
 #yslygi h1{
@@ -272,6 +293,7 @@ body{
     position: relative;
     left: 200px;
     top: 10px;
+    font-family: "Muller";
 }
 
 #yslygi{
@@ -279,19 +301,23 @@ body{
     flex-direction: row;
     position: relative;
     right: 60px;
+    font-family: "Muller";
 }
 
 
 
 .ysl-2{
     margin-top: 110px;
+    font-family: "Muller";
 }
 
 .ysl-3{
     margin-top: 30px;
+    font-family: "Muller";
 }
 .img{
     margin-right: 23px;
+    font-family: "Muller";
 }
 
 .chast{
@@ -300,6 +326,7 @@ body{
     border-radius: 0px 0px 15px 15px;
     background-color: white;
     padding-top: 20px;
+    font-family: "Muller";
 
 
 }
@@ -310,6 +337,7 @@ body{
     line-height: 40px;
     color: #CC9933;
     margin-left: 45px;
+    font-family: "Muller";
 }
 
 #name{
@@ -318,6 +346,7 @@ body{
     line-height: 32px;
     margin-left: 45px;
     margin-bottom: 35px;
+    font-family: "Muller";
 
 }
 
@@ -326,6 +355,7 @@ body{
     position: relative;
     right: 596px;
     top: -384px;
+    font-family: "Muller";
 }
 
 
@@ -337,15 +367,18 @@ body{
     margin: 20px;
     padding-bottom: 40px;
     padding-right: 20px;
+    font-family: "Muller";
 }
 
 .pr-1 img{
     margin-left: 45px;
     margin-top: 40px;
+    font-family: "Muller";
 }
 .pr-1 p{
     margin-left: 45px;
     margin-top: 40px;
+    font-family: "Muller";
 }
 
 .preim{
@@ -353,15 +386,18 @@ body{
     flex-direction: row;
     position: relative;
     right: 220px;
+    font-family: "Muller";
 }
 #preim2{
     display: flex;
     position: relative;
     right: ;
+    font-family: "Muller";
     
 }
 .preim3{
     display: flex;
+    font-family: "Muller";
 }
 
 .preim h1{
@@ -371,6 +407,7 @@ body{
     font-weight: 400px;
     font-size: 40px;
     line-height: 40px;
+    font-family: "Muller";
 }
 
 
@@ -382,16 +419,19 @@ body{
     margin: 20px;
     padding-bottom: 50px;
     padding-right: 20px;
+    font-family: "Muller";
    
 }
 
 .pr-2 img{
     margin-left: 45px;
     margin-top: 40px;
+    
 }
 .pr-2 p{
     margin-left: 45px;
     margin-top: 40px;
+    font-family: "Muller";
 }
 
 .h1{
@@ -401,12 +441,14 @@ body{
     font-weight: 400px;
     font-size: 20px;
     line-height: 40px;
+    font-family: "Muller";
 }
 
 .nav button:hover{
     background-color: #A47312;
     color: white;
     cursor: pointer;
+    font-family: "Muller";
 }
 
 #razm{
@@ -416,6 +458,7 @@ body{
     position: relative;
     right: 140px;
     top: 5px;
+    font-family: "Muller";
 }
 
 .raz-1 img{
@@ -424,6 +467,7 @@ body{
 .raz-1{
     position: relative;
     left: 130px;
+    font-family: "Muller";
     
 }
 
@@ -432,6 +476,7 @@ body{
     height: 40px;
     border-radius: 15px;
     background-color: white;
+    font-family: "Muller";
 }
 
 .df{
@@ -451,11 +496,13 @@ body{
     font-weight: 400px;
     font-size: 40px;
     line-height: 40px;
+    font-family: "Muller";
 }
 .df p{
     margin-left: 45px;
     position: relative;
     bottom: 15px;
+    font-family: "Muller";
 }
 
 .df button{
@@ -469,6 +516,7 @@ body{
     position: relative;
     left: 40px;
     bottom: 15px;
+    font-family: "Muller";
 }
 .star{
 
@@ -478,6 +526,7 @@ body{
 #oi{
     position: relative;
     left: 50px;
+    font-family: "Muller";
    
 }
 
@@ -487,6 +536,7 @@ body{
 .raz-2{
     position: relative;
     left: 135px;
+    font-family: "Muller";
     
 }
 
@@ -496,6 +546,7 @@ body{
     line-height: 20px;
     position: relative;
     bottom: 10px;
+    font-family: "Muller";
 }
 .z{
 font-weight: 400px;
@@ -503,6 +554,7 @@ font-size: 16px;
 line-height: 16px;
 position: relative;
 bottom: 10px;
+font-family: "Muller";
 }
 .v{
     font-weight: 400px;
@@ -511,6 +563,7 @@ bottom: 10px;
     color: #999999;
     position: relative;
     bottom: 10px;
+    font-family: "Muller";
 }
 #gh{
     position: absolute;
@@ -521,6 +574,7 @@ bottom: 10px;
     font-weight: 500px;
     font-size: 20px;
     line-height: ;
+    font-family: "Muller";
 }
 
 .hochy_tur{
@@ -533,29 +587,35 @@ bottom: 10px;
     position: absolute;
     bottom: 70px;
     margin-left: 30px;
+    font-family: "Muller";
 }
 .hoch-1 label{
     display: block;
     left: 48px;
     position: relative;
     bottom: 10px;
+    font-family: "Muller";
 }
 .hoch-1{
     margin: 30px;
     position: relative;
     right: 50px;
+    font-family: "Muller";
 }
 .hoch-1{
     margin: 40px;
+    font-family: "Muller";
 }
 .hoch-2 label{
     display: block;
     left: 4px;
     position: relative;
     bottom: 10px;
+    font-family: "Muller";
 }
 .hoch-2{
     margin: 40px;
+    font-family: "Muller";
 }
 
 .hoch-1 button{
@@ -567,6 +627,7 @@ bottom: 10px;
     background-color: white;
     position: relative;
     right: 30px;
+    font-family: "Muller";
 }
 
 #ggg{
@@ -576,6 +637,7 @@ bottom: 10px;
     background-color: #E9E9E9;
     position: relative;
     left: 10px;
+    font-family: "Muller";
 }
 #ROMPOW61:hover{
     background-color: #CC9933;
@@ -592,12 +654,14 @@ bottom: 10px;
     position: relative;
     top: 30px;
     left: 50px;
+    font-family: "Muller";
     
 }
 .POPO{
     position: relative;
     bottom: 20px;
     right: 16px;
+    font-family: "Muller";
 }
 #VV_XX:hover{
     
@@ -611,6 +675,7 @@ bottom: 10px;
     background-color: white;
     border-radius: 15px;
     height: 700px;
+    font-family: "Muller";
 
 
 }
@@ -619,6 +684,7 @@ bottom: 10px;
     position: relative;
     left: 30px;
     top: 40px;
+    font-family: "Muller";
   
 }
 .rte{
@@ -626,6 +692,7 @@ bottom: 10px;
     font-weight: 700px;
     font-size: 20px;
     line-height: 20px;
+    font-family: "Muller";
 }
 
 .rtw{
@@ -636,9 +703,10 @@ bottom: 10px;
     position: relative;
     left: 160px;
     top: -40px;
+    font-family: "Muller";
 }
 .rtm{
-    font-family: Muller;
+    font-family: "Muller";
     font-weight: 400px;
     font-size: 16px;
     line-height: 24px;
@@ -653,12 +721,14 @@ bottom: 10px;
     position: relative;
     top: 20px;
     right: 125px;
+    font-family: "Muller";
 }
 
 #ttd{
     position: relative;
     top: 20px;
     right: 132px;
+    font-family: "Muller";
 }
 
 .adres5 button{
@@ -667,12 +737,13 @@ bottom: 10px;
     border-radius: 10px;
     border: 1px solid #CC9933;
     color: #CC9933;
+    font-family: "Muller";
 
     right: 7px;
     top: 30px;
     position: relative;
     font-weight: 700px;
-    font-family: Muller;
+    font-family: "Muller";
     font-size: 16px;
     line-height: 16px;
     background-color: white;
@@ -684,16 +755,19 @@ bottom: 10px;
     top: 40px;
     right: 520px;
     width: 410px;
+    font-family: "Muller";
 }
 .fff{
     position: relative;
     left: 450px;
     top: -600px;
+    font-family: "Muller";
 }
 
 #V_B{
     position: relative;
     top: 300px;
+    font-family: "Muller";
 }
 
 #foot{
@@ -705,6 +779,7 @@ bottom: 10px;
     font-family: Muller;
     margin-top: 150px;
     position: relative;
+    font-family: "Muller";
     
 }
 
@@ -716,6 +791,7 @@ bottom: 10px;
     top: 45px;
     position: relative;
     left: 50px;
+    font-family: "Muller";
 }
 .foot-2{
     font-weight: 400px;
@@ -725,6 +801,7 @@ bottom: 10px;
     position: relative;
     left: 50px;
     top: 60px;
+    font-family: "Muller";
 }
 
 .foot-3{
@@ -736,11 +813,13 @@ bottom: 10px;
     color: #CC9933;
     left: 50px;
     top: 120px;
+    font-family: "Muller";
 }
 .footss{
     position: relative;
     left: 520px;
     top: -215px;
+    font-family: "Muller";
 }
 
 .foot-4{
@@ -750,6 +829,7 @@ bottom: 10px;
     color: white;
     top: 45px;
     position: relative;
+    font-family: "Muller";
 }
 
 
@@ -759,6 +839,7 @@ bottom: 10px;
     line-height: 24px;
     color: #CC9933;
     top: 45px;
+    font-family: "Muller";
     position: relative;
 }
 
@@ -769,6 +850,7 @@ bottom: 10px;
     color: #CC9933;
     top: 45px;
     position: relative;
+    font-family: "Muller";
 }
 
 
@@ -786,6 +868,7 @@ bottom: 10px;
 
 #TEL{
     text-decoration: none;
+    font-family: "Muller";
     color:#CC9933;
 }
 
