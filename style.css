@@ -1,26 +1,169 @@
+@media (max-width: 1024px) {
+    body {
+
+        zoom: 100%;
+    }
+    .preim2{
+
+    }
+    .preim3{
+        margin-left: 150px;
+
+    }
+    .nls {
+        width: 100%;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .li {
+        margin: 20px;
+    }
+
+    .Rectangle {
+        display: none;
+    }
+
+    #BUT, #BUT-1 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .spec-1 {
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    #onas h1 {
+        margin-left: 20px;
+    }
+
+    .on {
+        padding: 0 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .logs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .phone-container {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #LICH1 {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    #LICHNUY_KABINET {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .li {
+        margin: 10px;
+    }
+
+    .navig {
+        font-size: 14px;
+    }
+
+    #BUT, #BUT-1 {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .spec-1 {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    #onas h1 {
+        margin-left: 10px;
+        font-size: 28px;
+    }
+
+    .on {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+  
+
+
+
+
+
+
+
 body{
     zoom: 90%;
-    margin-left: 325px;
+    margin-left: 405px;
     margin-top: 30px;
     margin-right: 325px;
     background-color: #F1F1F1;
 }
 
-
-
-
-
-
-.logs{
-    display: flex;
+.star{
+    position: relative;
+    left: 190px;
+    top: 40px;
 }
+
+#oi{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+
+.h1 h1{
+    position: relative;
+    bottom: 110px;
+}
+#gh{
+    cursor: pointer;
+}
+#gh:hover{
+    color: #CC9933;
+}
+
 #LICH1{
     margin-left: 40px;
     font-weight: 500px;
     font-size: 20px;
-    
     color: #666666;
     font-weight: bold;
+}
+
+.logs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phone-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#LICH1 {
+    margin-right: 20px;
 }
 
 #LICHNUY_KABINET{
@@ -52,6 +195,7 @@ body{
     margin-top: 40px;
     background-color: white;
     border-radius: 15px;
+    width: 1350px;
     
 }
 .Rectangle{
@@ -191,6 +335,8 @@ body{
     border-radius: 15px;
     background-color: white;
     margin: 20px;
+    padding-bottom: 40px;
+    padding-right: 20px;
 }
 
 .pr-1 img{
@@ -234,6 +380,8 @@ body{
     border-radius: 15px;
     background-color: white;
     margin: 20px;
+    padding-bottom: 50px;
+    padding-right: 20px;
    
 }
 
@@ -339,23 +487,30 @@ body{
 .raz-2{
     position: relative;
     left: 135px;
+    
 }
 
 .p{
     font-weight: 700px;
     font-size: 20px;
     line-height: 20px;
+    position: relative;
+    bottom: 10px;
 }
 .z{
 font-weight: 400px;
 font-size: 16px;
 line-height: 16px;
+position: relative;
+bottom: 10px;
 }
 .v{
     font-weight: 400px;
     font-size: 16px;
     line-height: 16px;
     color: #999999;
+    position: relative;
+    bottom: 10px;
 }
 #gh{
     position: absolute;
@@ -381,11 +536,14 @@ line-height: 16px;
 }
 .hoch-1 label{
     display: block;
-    left: 45px;
+    left: 48px;
     position: relative;
+    bottom: 10px;
 }
 .hoch-1{
     margin: 30px;
+    position: relative;
+    right: 50px;
 }
 .hoch-1{
     margin: 40px;
@@ -394,6 +552,7 @@ line-height: 16px;
     display: block;
     left: 4px;
     position: relative;
+    bottom: 10px;
 }
 .hoch-2{
     margin: 40px;
@@ -407,7 +566,7 @@ line-height: 16px;
     color: #CC9933;
     background-color: white;
     position: relative;
-    right: 60px;
+    right: 30px;
 }
 
 #ggg{
@@ -458,7 +617,7 @@ line-height: 16px;
 
 .kontakti{
     position: relative;
-    left: 50px;
+    left: 30px;
     top: 40px;
   
 }
