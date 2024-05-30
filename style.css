@@ -1,112 +1,189 @@
-@media (max-width: 1024px) {
-    body {
 
-        zoom: 100%;
-    }
-    .preim2{
-
-    }
-    .preim3{
-        margin-left: 150px;
-
-    }
-    .nls {
-        width: 100%;
-    }
-
-    .nav {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .li {
-        margin: 20px;
-    }
-
-    .Rectangle {
-        display: none;
-    }
-
-    #BUT, #BUT-1 {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .spec-1 {
-        margin-top: 30px;
-        margin-left: 20px;
-    }
-
-    #onas h1 {
-        margin-left: 20px;
-    }
-
-    .on {
-        padding: 0 20px;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .logs {
+  
+@media (max-width: 767px) {
+    .header {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
-    .phone-container {
-        flex-direction: column;
-        margin-top: 20px;
-    }
-
-    #LICH1 {
-        margin-right: 0;
+    .logo {
         margin-bottom: 10px;
     }
 
-    #LICHNUY_KABINET {
-        margin-left: 0;
+    .phone-container {
+        margin-top: 10px;
     }
-}
 
-
-@media (max-width: 480px) {
-    body {
-        margin-left: 10px;
-        margin-right: 10px;
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .li {
-        margin: 10px;
+        margin-bottom: 10px;
     }
 
-    .navig {
-        font-size: 14px;
-    }
-
-    #BUT, #BUT-1 {
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    .spec-1 {
-        margin-top: 20px;
-        margin-left: 10px;
-    }
-
-    #onas h1 {
-        margin-left: 10px;
-        font-size: 28px;
-    }
-
-    .on {
-        font-size: 14px;
-        line-height: 24px;
+    #BUT-1, #BUT {
+        width: 100%;
+        margin-top: 10px;
     }
 }
-  
 
+@media (max-width: 414px) {
 
+    .text-onas{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
 
+    }
+    .nav{
+        width: 100px;
+        font-size: 40px;
+
+    }
+    .navig{
+        font-size: 40px;
+    }
+    #ret{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+    #service{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    #foot{
+        width: 150px;
+    }
+   #hotels{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+   }
+   .service-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: center;
+   }
+   .advantages-contain{
+    margin: 0 auto;
+    text-align: center;
+   }
+   #hotels{
+    margin-left: 110px;
+    
+   }
+   .advantages{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+
+   }
+   .hotel{
+    margin: 40px;
+    font-size: 40px;
+
+   }
+   .service{
+    margin: 40px;
+    font-size: 40px;
+   }
+   #rada{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 260px;
+    margin-top: 50px;
+    font-size: 40px;
+   }
+   #fff{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 260px;
+    margin-top: 50px;
+    
+   }
+   #ggg{
+    margin: 0 auto;
+    text-align: center;
+    width: 50px;
+    display: inline;
+    margin-top: 800px;
+    background-color: #fff;
+    
+   }
+   #ret{
+    margin-bottom: 80px;
+   }
+
+   .fff{
+    width: 433px;
+    position: relative;
+   }
+   .hochy_tur{
+    position: relative;
+    top: -1px;
+
+   }
+   .hoch-1{
+    display: flex;
+    flex-wrap: wrap;
+
+   }
+   .hoch-2{
+    display: flex;
+    flex-wrap: wrap;
+
+   }
+   .adres1{
+    display: block;
+    text-align: left;
+    font-size: 40px;
+   }
+   .adres2{
+    display: block;
+    text-align: left;
+    font-size: 40px;
+   }
+   .adres3{
+    display: block;
+    text-align: left;
+    font-size: 40px;
+   }
+   .adres4{
+    display: block;
+    text-align: left;
+    font-size: 40px;
+   }
+   .adres5{
+    display: block;
+    text-align: left;
+    font-size: 40px;
+   }
+   .adres6{
+    display: block;
+    text-align: left;
+    font-size: 40px;
+   }
+   #onas{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+   }
+} 
 @font-face{
     font-family: "Muller";
     src: url(fonts/ofont.ru_Muller.ttf);
@@ -207,7 +284,7 @@ body{
     margin-top: 40px;
     background-color: white;
     border-radius: 15px;
-    width: 1370px;
+    width: 1390px;
     font-family: "Muller";
     
 }
@@ -233,6 +310,7 @@ body{
     background-color: #A47312;
     color: white;
     font-family: "Muller";
+    transition: 0.5s;
 }
 
 #BUT-1{
@@ -254,9 +332,134 @@ body{
     background-color: #A47312;
     color: white;
     font-family: "Muller";
+    transition: 0.5s;
     
 }
+.tel-link,
+.email-link {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.image-container {
+    opacity: 0.9;
+    margin-top: 70px;
 
+}
+.images-container2{
+    position: relative;
+    
+}
+.images-container1{
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.promotions-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    }
+    
+    .prom-img-2{
+    width: 515px;
+    }
+    #trtr{
+        z-index: 100;
+        position: relative;
+        bottom: 80px;
+        text-align: center;
+        color: white;
+        right: 20px;
+        font-weight: 500px;
+        font-size: 20px;
+    }
+
+    #trtr:hover{
+        color:#A47312 ;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .text-onas{
+    text-align: justify;
+    position: relative;
+    right: 30px;
+    bottom: 90px;
+    line-height: 32px;
+    font-weight: 400px;
+    }
+    
+    .service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+.text-overlay {
+    position: relative;
+    left: 40px;
+    bottom: 230px;
+    color: white;
+}
+.text-overlays {
+    position: relative;
+    left: 40px;
+    bottom: 380px;
+    color: white;
+    font-weight: 700px;
+}
+.text-overlays .mald{
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.text-overlays a{
+    color: #FFCC66;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+.text-overlays:hover a{
+    color: #A47312;
+    transition: 0.5s;
+}
+.text-overlay .mald{
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.text-overlay a{
+    color: #FFCC66;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+.text-overlay:hover a{
+    color: #A47312;
+    transition: 0.5s;
+}
+#mald-2{
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.text-overlay p {
+    margin: 10px 0;
+}
+.tel-link:hover,
+.email-link:hover {
+    color: #CC9933;
+}
+
+.tel-link:focus,
+.email-link:focus {
+    outline: none;
+    color: #A47312;
+}
+
+.tel-link:active,
+.email-link:active {
+    color: #866228;
+}
 
 
 .spec-1{
@@ -280,10 +483,13 @@ body{
     line-height: 32px;
     font-family: "Muller";
 }
-
+.text-onas{
+    margin-top: 0;
+}
 #onas{
     margin-left: 70px;
     font-family: "Muller";
+
 }
 
 #yslygi h1{
@@ -409,8 +615,26 @@ body{
     line-height: 40px;
     font-family: "Muller";
 }
+#specia-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; 
+    margin-left: 50px;
+}
 
+.images-container1 {
+    margin-top: 20px; 
+}
 
+.images-container2 {
+    margin-top: 20px; 
+    position: relative;
+    right: 1215px;
+    top: 282px;
+}
+.image-container{
+    margin-top: 20px; 
+}
 .pr-2{
     width: 275px;
     height: 275px;
@@ -492,7 +716,8 @@ body{
 
 #ret{
     position: relative;
-    left: 106px;
+    left: 60px;
+    bottom: 80px;
     font-weight: 400px;
     font-size: 40px;
     line-height: 40px;
@@ -579,7 +804,7 @@ font-family: "Muller";
 
 .hochy_tur{
     display: flex;
-    width: 1180px;
+    width: 1240px;
     height: 110px;
     border-radius: 15px;
     background-color: white;
@@ -631,7 +856,7 @@ font-family: "Muller";
 }
 
 #ggg{
-    width: 1220px;
+    width: 1300px;
     height: 270px;
     border-radius: 15px;
     background-color: #E9E9E9;
@@ -769,15 +994,126 @@ font-family: "Muller";
     top: 300px;
     font-family: "Muller";
 }
+.hotels-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+   
+    .service-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+    .service{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    border-radius: 25px;
+    width: 655px;
+    margin-bottom: 2%;
+    }
+    
+    .service img{
+    width: 655px;
+    }
+    
+    .service-text{
+    padding: 15px;
+    margin-left: 40px;
+    margin-top: 30px;
+    }
+    
+    .service-text b {
+        color: #CC9933;
+        font-size: 20px;
+    }
+    
+    .advantages-contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .advantages{
+    font-size: 20px;
+    background-color: white;
+    border-radius: 25px; 
+    margin: 10px;
+    padding: 10px;
+    }
+    .hotel{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    border-radius: 25px;
+    width: 420px;
+    margin-bottom: 4%;
+    }
+    
+    .hot{
+    width: 420px;
+    }
+    
+    .hotel-text{
+    padding: 45px;
+    }
+    
+    .hotel-text b{
+    font-size: 20px;
+    }
+    
+    .rate{
+    height: 25px;
+    }
+    .advantages-contain{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        
+        .advantages{
+        font-size: 20px;
+        background-color: white;
+        border-radius: 25px; 
+        margin: 10px;
+        padding: 10px;
+        }
+    
+    #btn-hotel{
+    width:40%;
+    height: 50px;
+    background: none;
+    border-radius: 15px;
+    border: #ffb833 1px solid;
+    color: #ffb833;
+    }
+    
+    #btn-hotel:hover{
+        color: white;
+        transition: 0.5s;
+        background-color:#CC9933; 
+        cursor: pointer;
+    }
 
+    .socnetw{
+        position: relative;
+        left: 1150px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        bottom: 160px;
+        top: 1300px;
+        z-index: 100;
+    }
+
+    .socnetw img{
+        margin-bottom: 25px;
+    }
 #foot{
-    width: 1220px;
+    width: 1300px;
     height: 400px;
     border-radius: 15px;
     background-color: #333333;
     bottom: 0;
     font-family: Muller;
-    margin-top: 150px;
+    margin-top: 990px;
     position: relative;
     font-family: "Muller";
     
