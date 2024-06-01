@@ -184,6 +184,61 @@
     font-size: 40px;
    }
 } 
+
+
+
+@media (max-width:820px){
+    #service{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        gap: 15px;
+        text-align: center;
+    }
+    #foot{
+        display: flex;
+        flex-wrap: wrap;
+        width: 820px;
+        
+    }
+    .footss{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text-onas{
+        display: block;
+        margin: 0 auto;
+    }
+    #hotels{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        
+    }
+    .fff{
+        width: 300px;
+       
+    }
+    .hochy_tur{
+        display: block;
+        
+    }
+    .back{
+        width: 820px;
+    }
+    #specia-1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .image-container{
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+    .images-container1{
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+}
 @font-face{
     font-family: "Muller";
     src: url(fonts/ofont.ru_Muller.ttf);
@@ -206,7 +261,31 @@ body{
     left: 190px;
     top: 40px;
 }
-
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Muller";
+    }
+    header img{
+    width: 300px;
+    }
+    
+    header b{
+    color: #ffb833;
+    }
+    
+    .head-div{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #666666;
+    font-weight: 500px;
+    font-size: 20px;
+    font-family: "Muller";
+    line-height: 20px;
+    }
 #oi{
     margin-left: 0px;
     margin-right: 0px;
@@ -310,7 +389,7 @@ body{
     background-color: #A47312;
     color: white;
     font-family: "Muller";
-    transition: 0.5s;
+    transition: 1s;
 }
 
 #BUT-1{
@@ -332,7 +411,7 @@ body{
     background-color: #A47312;
     color: white;
     font-family: "Muller";
-    transition: 0.5s;
+    transition: 1s;
     
 }
 .tel-link,
