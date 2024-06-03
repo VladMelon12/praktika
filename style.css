@@ -46,144 +46,12 @@
     .navig{
         font-size: 40px;
     }
-    #ret{
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        align-items: center;
+    #specia-1{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
     }
-    #service{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    }
-    #foot{
-        width: 150px;
-    }
-   #hotels{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    text-align: center;
-   }
-   .service-container{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    text-align: center;
-   }
-   .advantages-contain{
-    margin: 0 auto;
-    text-align: center;
-   }
-   #hotels{
-    margin-left: 110px;
-    
-   }
-   .advantages{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 40px;
+}
 
-   }
-   .hotel{
-    margin: 40px;
-    font-size: 40px;
-
-   }
-   .service{
-    margin: 40px;
-    font-size: 40px;
-   }
-   #rada{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-left: 260px;
-    margin-top: 50px;
-    font-size: 40px;
-   }
-   #fff{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-left: 260px;
-    margin-top: 50px;
-    
-   }
-   #ggg{
-    margin: 0 auto;
-    text-align: center;
-    width: 50px;
-    display: inline;
-    margin-top: 800px;
-    background-color: #fff;
-    
-   }
-   #ret{
-    margin-bottom: 80px;
-   }
-
-   .fff{
-    width: 433px;
-    position: relative;
-   }
-   .hochy_tur{
-    position: relative;
-    top: -1px;
-
-   }
-   .hoch-1{
-    display: flex;
-    flex-wrap: wrap;
-
-   }
-   .hoch-2{
-    display: flex;
-    flex-wrap: wrap;
-
-   }
-   .adres1{
-    display: block;
-    text-align: left;
-    font-size: 40px;
-   }
-   .adres2{
-    display: block;
-    text-align: left;
-    font-size: 40px;
-   }
-   .adres3{
-    display: block;
-    text-align: left;
-    font-size: 40px;
-   }
-   .adres4{
-    display: block;
-    text-align: left;
-    font-size: 40px;
-   }
-   .adres5{
-    display: block;
-    text-align: left;
-    font-size: 40px;
-   }
-   .adres6{
-    display: block;
-    text-align: left;
-    font-size: 40px;
-   }
-   #onas{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 40px;
-   }
-} 
 
 
 
@@ -195,16 +63,7 @@
         gap: 15px;
         text-align: center;
     }
-    #foot{
-        display: flex;
-        flex-wrap: wrap;
-        width: 820px;
-        
-    }
-    .footss{
-        display: flex;
-        flex-wrap: wrap;
-    }
+
     .text-onas{
         display: block;
         margin: 0 auto;
@@ -1107,12 +966,12 @@ font-family: "Muller";
         font-size: 20px;
     }
     
-    .advantages-contain{
+    .adm{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     
-    .advantages{
+    .adv{
     font-size: 20px;
     background-color: white;
     border-radius: 25px; 
