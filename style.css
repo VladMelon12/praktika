@@ -38,7 +38,29 @@ body{
     display: flex;
     align-items: center;
     }
-    
+    #w{
+        margin-left: 80px;
+    }
+    #e{
+        margin-top: 90px;
+        margin-left: 80px;
+    }
+    #r{
+        margin-top: 90px;
+        margin-left: 80px;
+    }
+    #c{
+        margin-top: 90px;
+        margin-left: 80px;
+    }
+    #n{
+        margin-top: 90px;
+        margin-left: 80px;
+    }
+    #v{
+        margin-top: 90px;
+        margin-left: 80px;
+    }
     .navigation-text{
     display: flex;
     align-items: center;
@@ -93,7 +115,7 @@ body{
     }
     
     .promotions-1{
-        width: 525px;
+        width: 625px;
     display: grid;
     flex-direction: column;
     display: flex;
@@ -113,7 +135,7 @@ body{
     
 }
   .prom-img-1{
-    width: 520px;
+    width: 700px;
     margin-bottom: 2%;
     margin-right: 0%;
     position: relative;
@@ -123,13 +145,16 @@ body{
     .promotions-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 5%;
+    margin-right: 9%;
     position: relative;
 
     }
-    .prom-img-1,
+    
 .prom-img-2 {
     display: block;
+
+    height: 665px;
+    width: 663px;
 }
 .promotions-container {
     display: flex;
@@ -206,19 +231,26 @@ body{
 }
 .text-overlayz {
     position: absolute;
-    top: 45%;
-    left: 8%;
+    top: 35%;
+    left: 30%;
     color: white;
     font-size: 25px;
+    font-weight: 700px;
+    font-size: 40px;
 }
     .prom-img-2{
-    width: 515px;
+    width: 536px;
     position: relative;
-    margin: 10px;
+    left: 120px;
+    
     }
     
     .text-onas{
     text-align: justify;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 32px;
+    margin-left: 10px;
     }
     
     .service-container{
@@ -510,13 +542,13 @@ body{
     .zxz{
         font-size: 10px;
         position: relative;
-        bottom: 80px;
-        left: 80px;
+        bottom: 60px;
+        left: 220px;
     }
     .text-overlayz p{
         position: relative;
-        left: 80px;
-        bottom: 50px;
+        left: 220px;
+        bottom: 20px;
         font-size: 20px;
     }
  
@@ -567,9 +599,11 @@ body{
     height: 100px;
     }
     .prom-img-2{
-    margin-left: 40%;
+    margin-left: 200px;
     width: 200px;
     height: 205px;
+    margin-top: 20px;
+
     }
     
     .promotions-1{
